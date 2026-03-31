@@ -144,7 +144,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '1.5px', color: '#F97316', textTransform: 'uppercase', marginBottom: 6 }}>Business Hours</div>
-                  <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Mon – Fri: 8:00 AM – 6:00 PM</div>
+                  <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>Mon – Sun: 8:00 AM – 6:00 PM</div>
                   <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>24/7 Operations Support Line</div>
                 </div>
               </div>
@@ -156,7 +156,7 @@ export default function Contact() {
                 <Building2 size={18} color="#F97316" />
                 <span style={{ fontSize: 13, fontWeight: 700, color: '#fff', letterSpacing: '1px', textTransform: 'uppercase' }}>Regional Offices</span>
               </div>
-              {['Lagos State', 'Abuja, FCT', 'Port Harcourt, Rivers State'].map((office) => (
+              {['Lagos State', 'Abuja, FCT', 'Ilorin, Kwara State'].map((office) => (
                 <div key={office} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
                   <div style={{ width: 5, height: 5, borderRadius: '50%', background: '#F97316' }} />
                   <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.55)' }}>{office}</span>
